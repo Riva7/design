@@ -1,0 +1,333 @@
+/* CSS Document */
+/*body{
+background:url(rain-city-wallpapers-free.jpg)}*/
+body{ background: url(rain_city.jpg)}
+ul{
+	list-style:none;
+	padding:20px
+}
+.newslist-date{padding:2px 10px; background:#CCCCCC; margin:5px}
+a{ 
+	text-decoration:none;
+	color:#FFFFFF}
+li.Info,li.Gallery,li.Login,li.Sup{float:right}
+nav ul li{  margin:0px 30px; float: left; display:block; vertical-align:middle; padding:0px 50px}
+
+table{ font-size:18px; padding:30px}
+/*.Main{width:85%}*/
+
+#Content{background:none}
+#Guest nav ul li{padding: 0px 110px}
+#Title{vertical-align: bottom}
+#index{background:none; height:auto}
+h2{color: #003333}
+
+.Img{margin:20px 90px; width:95%; height:700px; font-size:24px; background:url(nature.jpg) top}
+
+.Width{ width:90%}
+
+.Gallery{ margin:20px 90px}
+.Gcontent{color:#FFFFFF}
+
+	
+.Title{
+	height:100px;
+	background:#333333;
+		font-family:sans-serif;
+	width:95%;
+	font-size:larger; 
+	font-weight:bolder;
+	margin:0px 90px;
+	opacity:0.75;
+	}
+	
+	
+div.Errmsg{color:#FF0000; font-size:small; float:right}
+		
+.Menu{
+	width:90%; 
+	font-family:sans-serif;
+	height:50px; 
+	background: #000000; 
+	font-size: 18px; 
+	font-weight:bold;
+	margin:0px 90px;
+	color:#999999;
+	vertical-align:super;
+	padding: 0px 30px;
+	}
+	
+.Intro{
+	width:95%; 
+	height:500px;	 
+	font-size:24px;
+	font-family:sans-serif;
+	font-weight:bolder;
+	margin:10px 90px;
+	color: #FFFFFF;
+	padding-top:50px
+	
+	}
+	
+.Content{ 
+	width:92%;
+	background:#CCCCCC; 
+	font-size:20px;
+	font-family:sans-serif;
+	padding:20px;
+	margin:10px 90px;
+	height:800px;
+	color: #003333;
+	opacity:0.75
+	
+		}
+.Content h5{color: #003333}
+.Content article{padding:20px; text-align:justify}
+.Height{
+	height:600px;
+	width:92%;
+	background:#CCCCCC;
+	padding:20px;
+	margin:10px 90px;}
+	
+.SideBar{ 
+	width:90%; 
+	height: inherit; 
+	background:#006633;
+		font-family:sans-serif; 
+	font-size:24px; 
+	padding-right:10px;
+	
+	
+	}
+	
+footer
+{ 
+	width:87%; 
+	height:200px; 
+	background: #111111;
+	color:#CCCCCC; 
+	font-size:24px; 
+	
+	border-bottom:thick; 
+	border-bottom-color:#000000;
+	padding-left:100px;
+	margin:20px;
+	margin-left:95px}
+li {
+    display: inline;
+    position: relative;
+}
+nav ul ul{
+    position: absolute;
+    display: none;
+	z-index:5;
+}
+li:hover ul li:hover ul{
+    display: block;
+	z-index:1
+}
+nav ul li:hover > ul {
+    display: block;
+	background: #003300;
+	/*opacity:0.7
+}*/
+	
+
+.NewsContent{float:right; background: #006633;
+	width:30%;
+	height:890px;
+	color:#FFFFFF;
+	border-radius:10px;
+	border:inset;
+	overflow:hidden
+	
+	}
+#Login{height:400px}
+
+
+	
+a:hover{ text-decoration:underline;  
+	}
+.Access{ float:right; 
+			display:block; 
+			padding:30px; 
+			}
+a.Login,a.SignUp{padding:30px}
+
+
+
+.testbutton {
+  font-family: arial;
+  color: #000000;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  
+  padding: 10px 18px;
+  
+  
+  border: 2px;
+  background: #999999;
+}
+.testbutton:hover {
+  color: #000000;
+  background: #666666;
+}
+
+
+
+
+
+
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+/* Footer right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+/* The search form */
+
+.footer-distributed form{
+	position: relative;
+}
+
+.footer-distributed form input{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 500px;
+	padding: 18px 50px 18px 18px;
+}
+
+.footer-distributed form input:focus{
+	outline: none;
+}
+
+/* Changing the placeholder color */
+
+.footer-distributed form input::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed form input::-moz-placeholder {
+	opacity: 1;
+	color:  #5c666b;
+}
+
+.footer-distributed form input:-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+/* The magnify glass icon */
+
+.footer-distributed form i{
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 16px;
+	right: 18px;
+
+	color: #d1d2d2;
+	font-size: 18px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed form input{
+		width: 300px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+		text-align: center;
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		margin-top: 10px;
+		font-size: 12px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 20px;
+	}
+
+	.footer-distributed form input{
+		width: 100%;
+	}
+
+}
+
+
+.Tour{float: left;
+width: 30%;
+margin-right:30px;
+margin-left:20px;
+margin-bottom: 3%;
+background: #CCCCCC;
+
+box-shadow: 0 0 4px #ccc;
+height: 100px;
+border: solid 4px #EFEFEF;
+-moz-box-shadow: 0 0 4px #ccc;
+-webkit-box-shadow: 0 0 4px #ccc;
+padding: 10px;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+overflow:visible
+}
+
+#fd{border:none;
+float:right}
+
+
+
